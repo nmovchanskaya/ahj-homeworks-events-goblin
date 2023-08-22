@@ -7,4 +7,4 @@ const scoreElem = document.querySelector('.score');
 const game = new Game(fieldElem, scoreElem);
 game.init(fieldElem);
 
-setInterval(game.move.bind(game), 4000);
+setInterval(game.move.bind(game), 2000);
